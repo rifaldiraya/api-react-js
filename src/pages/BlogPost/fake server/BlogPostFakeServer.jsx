@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import Post from "./Post";
+import Post from "../Post";
 import axios from "axios";
 
 class BlogPostFakeServer extends Component {

@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import Post from './Post';
+import Post from '../Post';
 
 class BlogPostFetch extends Component {
   state = {

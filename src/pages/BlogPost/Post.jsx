@@ -1,16 +1,17 @@
-import React, { Fragment } from 'react';
+import React from "react";
 
 const Post = (props) => {
   return (
-    <Fragment>
-      <div>
-        <img className="img-thumb" src="http://placeimg.com/320/240/tech" alt="dummy-img" />
+    <div className="post">
+      <div className="img-thumb">
+        <img src="http://placeimg.com/320/240/tech" alt="dummy-img" />
       </div>
-      <div className="content-blog">
-        <p>{props.title}</p>
-        <p>{props.description}</p>
+      <div className="content">
+        <p className="title">{props.title}</p>
+        <p className="description">{props.description}</p>
+        <button className="btn-remove">Remove</button>
       </div>
-    </Fragment>
+    </div>
   );
 };
 

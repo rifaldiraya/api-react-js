@@ -8,13 +8,14 @@ import BlogPostAxios from  './pages/BlogPost/basic and get method/BlogPostAxios'
 import BlogPostFakeServer from './pages/BlogPost/fake server/BlogPostFakeServer'
 import BlogPostDeleteMethod from './pages/BlogPost/delete method/BlogPostDeleteMethod'
 import BlogPostPostMethod from './pages/BlogPost/post method/BlogPostPostMethod'
+import BlogPostPutMethod from './pages/BlogPost/put method/BlogPostPutMethod'
 
 function App() {
   return (
     <Fragment>
       <BrowserRouter>
-        <Route path='/' component={BlogPostPostMethod} />
-        <Route path='/blogpost' component={BlogPostPostMethod} />
+        <Route path='/' component={BlogPostPutMethod} />
+        <Route path='/blogpost' component={BlogPostPutMethod} />
       </BrowserRouter>
     </Fragment>
   );
